@@ -3,7 +3,7 @@ The payment gateway for SEB payment
 
 ## Installation
 ```php
-composer require TTPayment\LaravelTTPayment
+composer require bahadur\LaravelTTPayment
 ```
 
 ## Publish the configuration
