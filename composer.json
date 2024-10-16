@@ -1,0 +1,20 @@
+{
+    "name": "bahadur/laravel-tt-payment",
+    "description": "SEB payment gatway",
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "TTPayment\\LaravelTTPayment\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "TTPayment\\LaravelTTPayment\\LaravelTTPaymentServiceProvider"
+            ]
+        }
+    }
+}
